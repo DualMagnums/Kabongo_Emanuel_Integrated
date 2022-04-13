@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="container">
+        
+    	<header id="mainHeader">
+        	<div id="logo" class="boxColor">
+                <img src= "images/Logo.png" alt="photo of website logo">
+            </div><!--end logo-->
+            <nav id="mainNav" class="boxColor">
+                <a href="page1.html">HOME</a>
+                <a href="page2.html">ABOUT PONGO</a></a>
+                <a class="selected"><a href="page3.html">CONTACT</a></a>
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+
+        <main>
+        	<div id="service1" class="boxColor">
+                <img src= "images/phone.png" alt="photo of phone">
+            </div><!--end service1-->
+            <div id="service2" class="boxColor">
+                <p>Would you like to set up a playdate with your pet and Pongo?</p>
+                <p>Call, Email Us or Text Below</p>
+            </div><!--end service2-->
+            <div id="service3" class="boxColor">
+                <img src= "images/mail.png" alt="photo of mail">
+            </div><!--end service3-->
+            <div id="banner" class="boxColor">
+                <form method="post" action="form.php">
+                    <label for="name">Name: </label>
+                    <input type="text" required id="Name" placeholder="Name">
+                    
+                    <label for="email">Email: </label>
+                    <input type="email" id="Email" required placeholder="Email">
+                    <br><br>
+
+                    <textarea id="message" required placeholder="Enter Your Message" rows="13" cols="115"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div><!--end banner-->
+        </main>
+
+        <footer id="mainFooter">
+        	<div id="footerNav" class="boxColor">
+                <p>678 999 9212 | pongo@pongmail.com</p>
+            </div><!--end FooterNav-->
+            <div id="copyRight" class="boxColor">
+                Copyright &copy; Kalonga Emanuel Kabongo
+            </div><!--end Copyright-->
+        </footer><!--end mainFooter-->
+        
+    </div><!--end container-->
+<script src="js/main.js"></script>    
+</body>
+</html>
